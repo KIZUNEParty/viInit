@@ -42,14 +42,15 @@ let name = `${opt.n}`
 let type = `${opt.t}`
 
 console.log('\x1b[32m' ,'yarn Checking~')
+console.log('')
 
 exec("yarn --version", (error, stdout, stderr) => {
   if(error) {
     console.log('\x1b[31m', 'yarn not found')
+    console.log('\x1b[0m', "please install 'yarn' first")
   }
   
   if(stdout) {
-    console.log('')
     console.log('\x1b[36m', 'yarn Ready!')
   }
 })
