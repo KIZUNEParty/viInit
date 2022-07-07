@@ -64,35 +64,13 @@ exec("yarn --version", (error, stdout) => {
       }
 
       if(stdout) {
-        console.log('\x1b[32m', 'Project Folder Ready!')
-        console.log('\x1b[0m', "Please wait for me for a while :(")
+        console.log('\x1b[32m', "Setting up is now complete, now it's your coding time :D")
+        console.log('\x1b[32m', "now just run :")
         console.log('')
-
-        console.log('\x1b[36m' ,'yarn is now installing your package~')
+        console.log('\x1b[32m', `      cd ${name}`)
+        console.log('\x1b[32m', `      yarn dev`)
         console.log('')
-
-        exec(`cd ${name}`, (error, stdout) => {
-          if(error) {
-            console.log('\x1b[31m', error);
-          }
-
-          exec(`yarn`, (error, stdout) => {
-            if(error) {
-              console.log('\x1b[31m', error);
-            }
-            
-            if(stdout) {
-              console.log(stdout);
-              console.log('\x1b[32m', "Setting up is now complete, now it's your coding time :D")
-              console.log('\x1b[32m', "now just run :")
-              console.log('')
-              console.log('\x1b[32m', `      cd ${name}`)
-              console.log('\x1b[32m', `      yarn dev`)
-              console.log('')
-              console.log('\x1b[32m', "and then init your project by yourself :)")
-            }
-          })
-        })
+        console.log('\x1b[32m', "and then init your project by yourself :)")
       }
     })
   }
