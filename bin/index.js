@@ -45,15 +45,11 @@ console.log('\x1b[32m' ,'yarn Checking~')
 
 exec("yarn --version", (error, stdout, stderr) => {
   if(error) {
-    console.log(`error: ${error.message}`)
+    console.log('\x1b[31m', 'yarn not found')
   }
-
-  if(stderr) {
-    console.log(`stderr: ${stderr}`)
-  }
-
-  console.log('')
+  
   if(stdout) {
+    console.log('')
     console.log('\x1b[36m', 'yarn Ready!')
   }
 })
