@@ -52,6 +52,8 @@ exec("yarn --version", (error, stdout, stderr) => {
     console.log(`stderr: ${stderr}`)
   }
 
-  console.log('\x1b[36m', 'yarn Ready!')
-  console.log('\x1b[36m', 'yarn Ready!')
+  console.log('')
+  if(stdout) {
+    console.log('\x1b[36m', 'yarn Ready!')
+  }
 })
