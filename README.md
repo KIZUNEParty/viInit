@@ -1,7 +1,7 @@
 # viInit
 ![npm](https://img.shields.io/npm/v/viinit?style=for-the-badge&) ![NPM](https://img.shields.io/npm/l/viinit?style=for-the-badge&) 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FMWMKParty%2FviInit&countColor=%23263759)<br />
-Just a laziest cli script that making for convert time to epochtime.
+just vite initor for a lazy guy :)
 
 ## Installation
 Install this globally from npm
