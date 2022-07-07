@@ -1,6 +1,6 @@
 {
   "name": "viinit",
-  "version": "1.0.0",
+  "version": "1.0.01",
   "description": "just vite initor for a lazy guy",
   "main": "./bin/index.js",
   "scripts": {
