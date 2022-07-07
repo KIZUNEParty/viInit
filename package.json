@@ -1,5 +1,5 @@
 {
-  "name": "vinit",
+  "name": "viinit",
   "version": "1.0.0",
   "description": "just vite initor for a lazy guy",
   "main": "./bin/index.js",
@@ -11,7 +11,7 @@
     "nodejs"
   ],
   "bin": {
-    "vInit": "./bin/index.js"
+    "viInit": "./bin/index.js"
   },
   "author": "detzz",
   "license": "MIT",
