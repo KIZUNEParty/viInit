@@ -15,6 +15,10 @@
   },
   "author": "dethz",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KIZUNEParty/vInit"
+  },
   "dependencies": {
     "child_process": "^1.0.2",
     "yargonaut": "^1.1.4",
