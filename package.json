@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "just vite initor for a lazy guy",
   "main": "./bin/index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "keywords": [
     "vitejs",
     "nodejs"
@@ -14,5 +12,8 @@
     "vInit": "./bin/index.js"
   },
   "author": "dethz",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
 }
